@@ -24,7 +24,7 @@ color: #FFFFFF;
 
 @media screen and (min-width: 320px)and (max-width: 767px) {
     .intro__text {
-        margin: 0 16px  40px 16px;  
+        margin: 0 16px  40px 16px;
         max-width: 288px;
     }
 }
