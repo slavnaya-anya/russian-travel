@@ -1,0 +1,47 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../../Images/26.png);
+  width: 100%;
+  min-height: 740px;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover__link::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: #2a2c2f;
+opacity: 0.3;
+transition: opacity 0.3s ease;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1279px) {
+    .cover__link { 
+        min-height: 640px;  
+     }
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px) {
+    .cover__link { 
+        min-height: 480px; 
+     }
+}
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
+    .cover__link {  
+      min-height: 200px;
+     }
+ }
+

@@ -1,0 +1,36 @@
+.lead__caption {
+max-width: 984px;
+margin: 8px 0 0 0;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 14px;
+align-self: start;
+/* identical to box height, or 140% */
+
+letter-spacing: 0.15em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+@media screen and (min-width: 1024px)and (max-width: 1279px) {
+    .lead__caption { 
+        max-width: 984px;
+     }
+}
+
+@media screen and (min-width: 768px)and (max-width: 1023px) {
+    .lead__caption { 
+        max-width: 768px;
+        margin-left: 24px;
+     }
+}
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
+   .lead__caption { 
+       max-width: 320px;
+       margin-left: 16px;
+    }
+}
