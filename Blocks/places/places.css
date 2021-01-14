@@ -4,6 +4,7 @@
     max-width: 984px;
     margin: 0 auto;   
     padding-bottom: 92px;
+    padding-top: 92px;
 }
 
 @media screen and (min-width: 1024px)and (max-width: 1279px) {
@@ -16,6 +17,7 @@
     .places { 
         max-width: 720px;  
         padding-bottom: 90px;
+        padding-top: 88px;
      }
 }
 
@@ -23,5 +25,7 @@
    .places { 
     max-width: 320px;
     padding-bottom: 66px;  
+    padding-top: 64px;
+
     }
 }

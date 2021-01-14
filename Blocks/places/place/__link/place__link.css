@@ -12,3 +12,9 @@ color: #FFFFFF;
 .place__link:hover {
     opacity: 0.8;
 }
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
+    .place__link { 
+         margin-left: 16px;
+     }
+ }

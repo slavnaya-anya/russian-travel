@@ -4,6 +4,7 @@
     grid-template-rows: 1fr;
     grid-gap: 48px 40px;
     max-width: 984px;
+    padding-bottom: 80px;
 }
 
 @media screen and (min-width: 1024px)and (max-width: 1279px) {
@@ -16,12 +17,14 @@
     .place { 
         max-width: 720px;
         grid-template-columns: 340px 1fr;
+        padding-bottom: 73px;
      }
 }
 @media screen and (min-width: 320px)and (max-width: 767px) {
     .place { 
      max-width: 320px;
      grid-template-columns: 320px;
+     padding-bottom: 50px;
      }
  
  }

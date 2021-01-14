@@ -6,7 +6,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    border: 1px solid red;
     /* identical to box height, or 106% */
     
     color: #FFFFFF;   
@@ -23,5 +22,7 @@
    .place__title { 
         font-size: 32px;
         line-height: 35px;
+        max-width: 288px;
+        margin: 16px;
     }
 }
