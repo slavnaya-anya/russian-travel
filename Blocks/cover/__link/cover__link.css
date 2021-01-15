@@ -1,7 +1,7 @@
 .cover__link {
   display: flex;
   flex-direction: column;
-  background-image: url(../../../Images/26.png);
+  background-image: url(../../../images/26.png);
   width: 100%;
   min-height: 740px;
   justify-content: center;
