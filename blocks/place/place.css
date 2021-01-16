@@ -6,6 +6,10 @@
     max-width: 984px;
     padding-bottom: 80px;
 }
+ 
+.place:last-child {
+    padding-bottom: 0;   
+}
 
 @media screen and (min-width: 1024px)and (max-width: 1279px) {
     .place {
@@ -25,6 +29,7 @@
      max-width: 320px;
      grid-template-columns: 320px;
      padding-bottom: 50px;
+     grid-gap: 32px;
      }
  
  }
